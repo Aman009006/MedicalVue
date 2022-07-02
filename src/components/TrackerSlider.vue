@@ -54,7 +54,10 @@ export default {
 </script>
 
 <style scoped>
-
+.tracking__slider{
+  margin-right: 0 !important;
+  margin: 0 auto !important;
+}
 .swiper__img {
     margin: 0;
     max-width: 365px !important;
