@@ -54,37 +54,37 @@ export default {
     max-width: 374px;
     width: 100%;
     background: #FFFFFF;
-box-shadow: 0px 2px 4px -2px rgba(24, 39, 75, 0.12), 0px 4px 4px -2px rgba(24, 39, 75, 0.08);
-border-radius: 8px;
-padding: 12px;
-margin-bottom: 12px;
-cursor: pointer;
+    box-shadow: 0px 2px 4px -2px rgba(24, 39, 75, 0.12), 0px 4px 4px -2px rgba(24, 39, 75, 0.08);
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
 }
 .controll__icon{
     width: 44px;
-height: 44px;
-background: rgba(238, 238, 238, 0.5);
-border-radius: 8px;
-display: flex;
-align-items: center;
-justify-content: center;
-margin-right: 12px;
+    height: 44px;
+    background: rgba(238, 238, 238, 0.5);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
 }
 .controll__text{
     width: 294px;
 }
 .controll__title{
     font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.01em;
-color: #2B2C3A;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #2B2C3A;
 }
 .controll__descr{
     font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-letter-spacing: 0.1px;
-color: rgba(43, 44, 58, 0.5);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: rgba(43, 44, 58, 0.5);
 }
 </style>
