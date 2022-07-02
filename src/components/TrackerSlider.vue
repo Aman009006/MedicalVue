@@ -11,11 +11,11 @@
     @swiper="onSwiper"
     @slideChange="onSlideChange"
   >
-    <swiper-slide ><img src="../assets/images/icons/track__banner.png" alt="" class="swiper__img"></swiper-slide>
-    <swiper-slide ><img src="../assets/images/icons/track__banner.png" alt="" class="swiper__img"></swiper-slide>
-    <swiper-slide ><img src="../assets/images/icons/track__banner.png" alt="" class="swiper__img"></swiper-slide>
-    <swiper-slide ><img src="../assets/images/icons/track__banner.png" alt="" class="swiper__img"></swiper-slide>
-    <swiper-slide ><img src="../assets/images/icons/track__banner.png" alt="" class="swiper__img"></swiper-slide>
+    <swiper-slide class="track__slider"><img src="../assets/images/icons/track__banner.png" alt="" class="swiper__img"></swiper-slide>
+    <swiper-slide class="track__slider"><img src="../assets/images/icons/track__banner.png" alt="" class="swiper__img"></swiper-slide>
+    <swiper-slide class="track__slider"><img src="../assets/images/icons/track__banner.png" alt="" class="swiper__img"></swiper-slide>
+    <swiper-slide class="track__slider"><img src="../assets/images/icons/track__banner.png" alt="" class="swiper__img"></swiper-slide>
+    <swiper-slide class="track__slider"><img src="../assets/images/icons/track__banner.png" alt="" class="swiper__img"></swiper-slide>
   </swiper>
     </div>
 </div>
@@ -54,8 +54,15 @@ export default {
 </script>
 
 <style scoped>
+
 .swiper__img {
-    width: 365px !important;
+    margin: 0;
+    max-width: 365px !important;
+    height: 148px;
+}
+.track__slider{
+  width: 365px !important;
+    height: 148px;
 }
 .theme__content{
     margin-top: 24px;
