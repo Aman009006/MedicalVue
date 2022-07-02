@@ -2,7 +2,7 @@
   <div class="track__type__content">
     <div class="container">
         <div class="types">
-            <div class="">
+            <div class="left">
                 <div class="tracking__type">
                 <img src="../assets/images/icons/types1.svg" alt="" class="type__img">
                 <p class="type__title">Онкологический</p>
@@ -79,8 +79,12 @@ export default {
 .track__type__content{
     margin-bottom: 100px;
 }
+.left{
+    margin-right: 12px;
+}
 .tracking__type{
-    width: 181px;
+    max-width: 181px;
+    width: 100%;
 background: #FFFFFF;
 box-shadow: 0px 2px 4px -2px rgba(24, 39, 75, 0.12), 0px 4px 4px -2px rgba(24, 39, 75, 0.08);
 border-radius: 8px;

@@ -10,7 +10,7 @@
             </div>
             <div class="track__tracking">
                 <img src="../assets/images/icons/track__circle.svg" alt="" class="track__circle">
-                    <svg class="progress-ring" width="90" height="90">
+                    <svg class="progress-ring"  wigth="90" height="90">
                         <circle class="progress-ring__circle" stroke="#FF6197" cx="45" cy="45" stroke-width="9"  r="40" fill="transparent"/>
                     </svg>
                     <p class="track__count">5/25</p>
@@ -49,6 +49,11 @@ export default {
 </script>
 
 <style>
+.track__circle{
+    max-width: 90px !important;
+    width: 90px !important;
+    height: 90px !important;
+}
 .track__count{
     font-weight: 600;
 font-size: 14px;
@@ -69,6 +74,7 @@ transform:translate(-50%, -50%);
     position: absolute;
     top: 0;
     left: 0;
+    max-width: 90px;
 }
 .progress-ring__circle {
   transform-origin: center;

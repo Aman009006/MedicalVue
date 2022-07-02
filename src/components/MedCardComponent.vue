@@ -134,6 +134,7 @@ border-radius: 8px;
 max-width: 181px;
 width: 100%;
 padding: 16px;
+margin-right: 12px;
 }
 .health__data{
     padding-bottom: 16px;

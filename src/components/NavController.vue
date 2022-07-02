@@ -69,6 +69,7 @@ border-radius: 8px;
 display: flex;
 align-items: center;
 justify-content: center;
+margin-right: 12px;
 }
 .controll__text{
     width: 294px;

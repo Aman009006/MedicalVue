@@ -63,7 +63,8 @@ background: #FFFFFF;
 box-shadow: 0px 2px 4px -2px rgba(24, 39, 75, 0.12), 0px 4px 4px -2px rgba(24, 39, 75, 0.08);
 border-radius: 8px;
 padding: 12px;
-width: 180px;
+max-width: 170px;
+width: 100%;
 margin-bottom: 12px;
 }
 .health__category_title{

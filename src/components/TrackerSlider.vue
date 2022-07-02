@@ -61,17 +61,18 @@ export default {
 .swiper__img {
     margin: 0;
     max-width: 365px !important;
-    height: 148px;
+    width: 100% !important;
 }
 .track__slider{
-  width: 365px !important;
-    height: 148px;
+  max-width: 365px !important;
+  width: 100%;
 }
 .theme__content{
     margin-top: 24px;
 }
 .swiper-slide{
-    width: 378px !important;
+    max-width: 378px !important;
+    width: 100%;
 }
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
     position: absolute !important;

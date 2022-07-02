@@ -46,7 +46,8 @@ export default {
   justify-content: space-between;
 }
 .category__cart{
-width: 181px;
+max-width: 170px;
+width: 100%;
 height: 76px;
 background: #FFFFFF;
 border-radius: 8px;

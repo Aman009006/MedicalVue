@@ -34,6 +34,8 @@ export default {
 </script>
 
 <style>
-
+.profile__img{
+  margin-right: 14px;
+}
 </style>
 
