@@ -61,13 +61,28 @@ nav a.router-link-exact-active {
   background: #6197FF;
 border-radius: 50px;
 padding: 10px;
+animation: animatename 1s  ;
+
 }
 nav a.router-link-exact-active img.def__svg {
   display: none;
 }
 nav a.router-link-exact-active span {
-  display: block;
+display: block;
+/* animation: animatename 0.5s  ; */
 }
+@keyframes animatename{
+  0%{
+    opacity: 0.5;
+  }
+  50%{
+    opacity: 0.7;
+  }
+  100%{
+  opacity: 1;
+  }
+}
+
 nav a.router-link-exact-active img {
  margin-right: 12px;
 }
