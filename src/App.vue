@@ -60,7 +60,7 @@ nav a.router-link-exact-active {
   display: flex;
   background: #6197FF;
 border-radius: 50px;
-animation: animatename 0.1s  ;
+animation: animatename 0.2s  ;
   padding: 10px;
 }
 nav a.router-link-exact-active img.def__svg {
