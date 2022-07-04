@@ -60,9 +60,8 @@ nav a.router-link-exact-active {
   display: flex;
   background: #6197FF;
 border-radius: 50px;
-padding: 10px;
-animation: animatename 1s  ;
-
+animation: animatename 0.1s  ;
+  padding: 10px;
 }
 nav a.router-link-exact-active img.def__svg {
   display: none;
@@ -73,13 +72,11 @@ display: block;
 }
 @keyframes animatename{
   0%{
-    opacity: 0.5;
+   padding: 0;
   }
-  50%{
-    opacity: 0.7;
-  }
+ 
   100%{
-  opacity: 1;
+  padding: 10px;
   }
 }
 
